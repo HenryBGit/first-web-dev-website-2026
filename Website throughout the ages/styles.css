@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&display=swap');
+
+h1 {
+    font-family: "Bitcount Single Ink", system-ui;
+    text-align: center;
+    font-size: 60px;
+}
+
+.content {
+    margin-left: 10em;
+}
+
+.friends-logo-img {
+    width: 30em;
+}
+
+/*this code sets the navigation links to look like buttons*/
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    border: plum outset 13px;
+    border-radius: 3%;
+    font-size: 24px;
+    display: inline-block;
+    text-align: right;
+}
+
+a:link,
+a:visited,
+a:focus {
+    background: #9966CC;
+    color: white;
+}
+
+a:hover {
+    background: #C8A2C8;
+}
+
+a:active {
+    background: slateblue;
+    color: white;
+}
